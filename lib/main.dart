@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/screens/homescreens/ui/home_screen.dart';
+import 'package:news_app/home/view/homescreens/ui/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: HomeScreen(),
     );
-    
+
   }
 }
